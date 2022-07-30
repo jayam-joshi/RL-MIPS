@@ -19,7 +19,7 @@ The reward given to each particle is negative of it's potential energy after eac
 <br>
 In this way the Q-learning algorithm maximizes reward and hance minimizes potential energy of the system in the steady state.
 ### Algorithm
-1. determine state $s_k$ of each particle. <br>
+1. determine state s<sub>k</sub> of each particle. <br>
 2. determine action $a_k$ to take according to following rule: \\ \\
          random action ; with probability $ \epsilon^n $ \\
          $ argmax_a Q_{s_k a} $ ; with probability $ 1- \epsilon^n $ \\
