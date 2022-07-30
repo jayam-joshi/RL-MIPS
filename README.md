@@ -27,7 +27,7 @@ In this way the Q-learning algorithm maximizes reward and hance minimizes potent
 3. translate all particle positions according to action taken <br>
  ![image](https://user-images.githubusercontent.com/82452505/181906823-0c5ab433-d205-4e0f-b117-2799ffecf389.png) <br>
 4.  Give reward R<sub>k</sub> to each particle.
-5.  Update Q-matrix according to Bellman equation 
-![image](https://user-images.githubusercontent.com/82452505/181906925-be89f7ed-b7a6-4ed6-a350-bb381a188a98.png)
+5.  Update Q-matrix according to Bellman equation <br>
+![image](https://user-images.githubusercontent.com/82452505/181906925-be89f7ed-b7a6-4ed6-a350-bb381a188a98.png) <br>
 6. Repeat until Q converges to optimal values  Q<sup>*</sup>  and agents starts acting according to optimal policy in the environment.
  
